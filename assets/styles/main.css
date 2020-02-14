@@ -3,6 +3,26 @@
 /* font-family: 'Muli', sans-serif;
 font-family: 'Catamaran', sans-serif; */
 
+h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    color: #2f2f2f;
+    letter-spacing: 0.7px;
+}
+
+h3 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+    color: #2f2f2f;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -14,6 +34,11 @@ a:hover {
 
 .container {
     max-width: 1680px;
+    margin: 0 auto;
+}
+
+.container--inner {
+    max-width: 1260px;
     margin: 0 auto;
 }
 
@@ -61,26 +86,71 @@ header {
     font-size: 24px;
     color: #fff;
     padding-top: 332px;
-    padding-left: 213px;
     max-width: 660px;
 }
 
-button{
+button {
     font-family: 'Catamaran', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 18px;
     color: #fff;
     background-color: #ff690f;
     border: none;
     border-radius: 5px;
     outline: none;
-    padding: 20px 45px;
-
+    cursor: pointer;
 }
 
-.header_content_btn {
-    margin-left: 214px;
+button.header_content_btn {
+    font-size: 18px;
     margin-top: 47px;
     margin-bottom: 334px;
+    padding: 20px 45px;
+}
+
+.offers {
+    background-color: #f7f7f7;
+    padding: 92px 0 162px;
+}
+
+.offers_title {
+}
+
+.offers_text {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #525252;
+    max-width: 925px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8;
+    padding-top: 24px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 67px;
+}
+
+.price_list{
+    width: 240px;
+}
+
+.price_text {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 23px;
+}
+
+.price_title {}
+
+button.price_btn {
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 16px 23px;
 }
