@@ -1,0 +1,64 @@
+.icon_clock, .icon_mail, .icon_marker, .icon_phone, .icon_facebook_orange, .icon_facebook_gray, .icon_instagram_orange, .icon_instagram_gray, .icons_twitter_orange, .icon_twitter_gray{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon_clock{
+	background-position: 0 -9.005706787109375px ;
+	width: 18px;
+	height: 18px;
+}
+
+.icon_mail{
+	background-position: -47px -11.011383056640625px ;
+	width: 18px;
+	height: 14px;
+}
+
+.icon_marker{
+	background-position: -100.99996948242188px -9.008544921875px ;
+	width: 12px;
+	height: 18px;
+}
+
+.icon_phone{
+	background-position: -149.00564575195312px -10.008544921875px ;
+	width: 16px;
+	height: 16px;
+}
+
+.icon_facebook_orange{
+	background-position: -197.99996948242188px 0;
+	width: 16px;
+	height: 30px;
+}
+
+.icon_facebook_gray{
+	background-position: -248.97726440429688px -1.0056915283203125px ;
+	width: 16px;
+	height: 30px;
+}
+
+.icon_instagram_orange{
+	background-position: -294.9971618652344px -5.00567626953125px ;
+	width: 27px;
+	height: 27px;
+}
+
+.icon_instagram_gray{
+	background-position: -344.9942932128906px -4.002838134765625px ;
+	width: 27px;
+	height: 27px;
+}
+
+.icons_twitter_orange{
+	background-position: -391.9942932128906px -6.00567626953125px ;
+	width: 30px;
+	height: 24px;
+}
+
+.icon_twitter_gray{
+	background-position: -440.9857482910156px -5.9886474609375px ;
+	width: 30px;
+	height: 24px;
+}
+

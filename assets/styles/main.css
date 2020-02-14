@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:700,900|Muli:300,400,600,700&display=swap');
+
+/* font-family: 'Muli', sans-serif;
+font-family: 'Catamaran', sans-serif; */
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #ff690f;
+}
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(/assets/images/header_background.png);
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.menu ul {
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    display: flex;
+    padding-top: 1px;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+
+.menu ul li:not(:first-child) {
+    padding-left: 45px;
+}
+
+.header_content_title {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #7ea7c7;
+    text-align: center;
+    margin: 28px 0;
+    letter-spacing: 1.5px;
+}
+
+.header_content_information {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 24px;
+    color: #fff;
+    padding-top: 332px;
+    padding-left: 213px;
+    max-width: 660px;
+}
+
+button{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff690f;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 20px 45px;
+
+}
+
+.header_content_btn {
+    margin-left: 214px;
+    margin-top: 47px;
+    margin-bottom: 334px;
+}
