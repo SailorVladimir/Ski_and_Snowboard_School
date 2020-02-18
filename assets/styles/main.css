@@ -196,3 +196,21 @@ button.price__btn {
 .gallery__item--7 {
     grid-area: img7;
 }
+
+.meet_our__title{
+    padding: 150px 0 50px 0;
+}
+
+.meet_out__list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.description{
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
